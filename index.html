@@ -1,0 +1,59 @@
+<!--start with npm init in your terminal to get package.json
+    2. then wenet to package.json, and added this: "serve": "live-server" under scripts. got rid of test script.
+    3. added folders: app, assets, css, lib, model, scss, and views.
+    4. added index.html
+    5. typed !+tab, then it scaffolds out the beginning html for us
+    6. create app.js file in app folder
+    7. create model.js, and structure.scss and styles.scss. in structure do basic reset.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaymee Stout's Portfolio</title>
+
+   
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="nav"></div>
+<div id="app"></div>
+<div id="footer"></div>
+
+<script src="lib/jquery-3.5.1.min.js"></script>
+<script src="model/model.js"></script> <!-- make sure this is before app-->
+<script src="app/app.js"></script>
+ <!-- Start of Async Drift Code -->
+ <script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('h3fxxvg6zpyw');
+  </script> 
+  <!-- End of Async Drift Code -->
+</body>
+</html>
