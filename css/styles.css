@@ -164,7 +164,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url("/assets/hdme.JPG");
+  background-image: url("../assets/hdme.JPG");
   border-radius: 10px; }
 
 #about .section-text {
@@ -186,22 +186,22 @@ a {
   cursor: pointer; }
 
 #portfolio .work-1 {
-  background: url(/assets/screens2.png);
+  background: url(../assets/screens2.png);
   background-repeat: no-repeat;
   background-size: 100%; }
 
 #portfolio .work-2 {
-  background: url(/assets/spinblock.png);
+  background: url(../assets/spinblock.png);
   background-repeat: no-repeat;
   background-size: 100%; }
 
 #portfolio .work-3 {
-  background: url(/assets/mockup2InterfaceTask.png);
+  background: url(../assets/mockup2InterfaceTask.png);
   background-repeat: no-repeat;
   background-size: 100%; }
 
 #portfolio .work-4 {
-  background: url(/assets/IKEABUILDIKNG.png);
+  background: url(../assets/IKEABUILDIKNG.png);
   background-repeat: no-repeat;
   background-size: 700px; }
 
@@ -351,7 +351,7 @@ a {
   height: 1000px;
   padding: 0; }
   .work-section--picture2 .background2 {
-    background: url(/assets/spinblock.png);
+    background: url(assets/spinblock.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%; }
@@ -361,7 +361,7 @@ a {
   height: 1000px;
   padding: 0; }
   .work-section--picture3 .background3 {
-    background: url(/assets/mockup2InterfaceTask.png);
+    background: url(assets/mockup2InterfaceTask.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%; }
@@ -371,7 +371,7 @@ a {
   height: 1000px;
   padding: 0; }
   .work-section--picture4 .background4 {
-    background: url(/assets/UserStories.png);
+    background: url(assets/UserStories.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%; }
